@@ -1,4 +1,4 @@
-<mat-sidenav-container>
+<!-- <mat-sidenav-container>
   <mat-sidenav #sidenav role="navigation">
     <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
@@ -9,9 +9,48 @@
     </main>
 
   </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container> -->
 
     <!-- footer -->
-    <app-footer></app-footer>
+    <!-- <app-footer></app-footer> -->
+
+    <mat-toolbar>
+        
+        <div>
+          <img width="100" alt="SwarJaipur Logo" src="assets/img/swarlogo.png">
+        </div>
+      </mat-toolbar>
+
+
+
+    <mat-sidenav-container>
+        
+        <mat-sidenav-content>          
+          <main>
+              <div>
+                  <div>
+                      This website is under construction, To book an appointment :
+                    </div>
+                    
+                    <ul >
+                        <li>
+                            <mat-icon>contact_phone</mat-icon> +91- 9461909080
+                        </li>
+                        <li>    
+                            <mat-icon>email</mat-icon> swarjaipur@gmail.com
+                        </li>
+                        <li>    
+                            <mat-icon>my_location</mat-icon> Opposite Tadka Dhaba, 14/1, Girdhar Marg, Niti Nagar, Sector 5, Malviya Nagar, Jaipur, Rajasthan 302017
+                        </li>
+                      </ul>  
+                  
+              </div>
+          </main>
+      
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+      
+
+    
 
 
